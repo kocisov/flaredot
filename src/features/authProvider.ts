@@ -1,6 +1,6 @@
 import {RefreshableAuthProvider, StaticAuthProvider} from "twitch-auth";
-import {writeTokensFile} from "./tokensFile";
-import {TokenData} from "../interfaces";
+import {writeTokensFile} from "@features/tokensFile";
+import {TokenData} from "@interfaces";
 
 const {CLIENT_ID, CLIENT_SECRET} = process.env;
 
