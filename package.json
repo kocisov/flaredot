@@ -1,0 +1,31 @@
+{
+  "name": "flaredot",
+  "version": "1.0.0",
+  "description": "Twitch bot base",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kocisov/flaredot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kocisov/flaredot/issues"
+  },
+  "homepage": "https://github.com/Kocisov/flaredot#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "twitch": "^4.2.5",
+    "twitch-auth": "^4.2.5",
+    "twitch-chat-client": "^4.2.5"
+  }
+}
