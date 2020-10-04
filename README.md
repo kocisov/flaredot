@@ -1,0 +1,2 @@
+# flaredot
+Twitch bot base
