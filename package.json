@@ -1,17 +1,18 @@
 {
   "name": "flaredot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Twitch bot base",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kocisov/flaredot.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "kocisov",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Kocisov/flaredot/issues"
   },
